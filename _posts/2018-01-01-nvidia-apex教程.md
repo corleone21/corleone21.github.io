@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "nvidia apex+3090+2080ti+pytorch1.7.1"
 description: this article explains something and gives a brief introduction.
 tags: welcome introduction
 ---
