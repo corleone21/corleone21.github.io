@@ -1,22 +1,64 @@
-theme: jekyll-dash
 
-# required by disqus to display comments
-url: https://corleone21.github.io
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@corleone21
+Learn Git and GitHub without any code!
 
-# jekyll-paginate
-paginate: 5
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+bitbrain /
+jekyll-dash
+
+4
+87
+
+    57
+
+Code
+Issues 7
+Pull requests 1
+Discussions
+Actions
+Projects
+Wiki
+Security
+
+    Insights
+
+jekyll-dash/_config.yml
+@tildehacker
+tildehacker Wrap long post descriptions (#46)
+Latest commit 859c0d4 on 21 Sep 2020
+History
+2 contributors
+@bitbrain
+@tildehacker
+54 lines (44 sloc) 1.35 KB
+title: dash
+author: GitHub User
+email: miguel-gonzalez@gmx.de
+description: > # this means to ignore newlines until "show_exerpts:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+show_excerpts: false # set to true to show excerpts on the homepage
+
+paginate: 1
 paginate_path: "/blog/page:num/"
 
-# jekyll-tagging (optional)
 tag_permalink_style: pretty
 tag_page_layout: tag_page
 tag_page_dir: tag
 
+# jekyll-dash date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 dash:
   date_format: "%b %-d, %Y"
 
   disqus:
-    shortname: <your-disqus-shortname>
+    shortname: bitbrain-github-io
 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
@@ -30,9 +72,38 @@ dash:
     - url: https://github.com/bitbrain
       icon: github-square
       color: purple
-      
+
   show_author: true
+
+  animation_speed: 50
+
+# Build settings
+theme: jekyll-dash
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-paginate
+ - liquid-md5
+ - jekyll/tagging
 
 # Replaces the default avatar provider (gravatar)
 #avatar_source: github
 #github_username: bitbrain
+
+    © 2021 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+
+
